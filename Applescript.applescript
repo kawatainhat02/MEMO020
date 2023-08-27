@@ -8,3 +8,8 @@ set myList to {"Problem", "There was a problem", "Bummer"}
 repeat with theItem in myList
    say theItem
 end repeat
+
+set myList to {"Problem", "There was a problem", "Bummer"}
+set theChoice to some item of myList
+say theChoice
+
